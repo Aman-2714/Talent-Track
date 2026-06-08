@@ -1,0 +1,9 @@
+John Doe
+Email: john@example.com
+
+Skills:
+Python, Flask, HTML, CSS, JavaScript, SQL, Machine Learning, Data Analysis
+Experience:
+Worked on web development projects and data analytics.
+
+

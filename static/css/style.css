@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+  padding: 20px;
+  background: #010409;
+  color: #58a6ff;
+  border-bottom: 1px solid #21262d;
+}
+
+/* =====================
+   UPLOAD SECTION
+===================== */
+.upload-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.upload-section form {
+  background: #161b22;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #21262d;
+}
+
+.upload-section input {
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+.upload-section button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* =====================
+   RESULTS GRID
+===================== */
+.results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+/* =====================
+   CARD
+===================== */
+.card {
+  background: #161b22;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #21262d;
+}
+
+/* =====================
+   SKILL TAGS (BASE)
+===================== */
+.skill-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 16px;
+  margin: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Extracted skills */
+#skills .skill-tag {
+  background: #1f6feb;
+  color: white;
+}
+
+/* Other roles */
+.other-role {
+  background: #0d419d;
+  color: #c9d1d9;
+}
+
+/* Missing skills */
+.missing-skill {
+  background: #da3633;
+  color: white;
+}
+
+/* =====================
+   LINKS & BUTTONS
+===================== */
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  padding: 10px 14px;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pdf-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #238636;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #8b949e;
+  border-top: 1px solid #21262d;
+}

@@ -1,0 +1,6 @@
+{
+  "Backend Developer": ["python", "flask", "sql", "git"],
+  "Frontend Developer": ["html", "css", "javascript"],
+  "DevOps Engineer": ["linux", "docker", "git"],
+  "Software Engineer": ["python", "sql", "git"]
+}

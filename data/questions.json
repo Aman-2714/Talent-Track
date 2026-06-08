@@ -1,0 +1,19 @@
+{
+  "Backend Developer": {
+    "basic": [
+      "What is REST?",
+      "What is Flask?",
+      "Difference between SQL and NoSQL?"
+    ],
+    "intermediate": [
+      "How does Flask handle requests?",
+      "What is ORM?",
+      "Explain database indexing"
+    ],
+    "advanced": [
+      "How do you scale a backend system?",
+      "Explain ACID properties",
+      "How would you secure a REST API?"
+    ]
+  }
+}
